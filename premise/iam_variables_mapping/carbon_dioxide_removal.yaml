@@ -49,8 +49,7 @@ direct air capture (solvent, high-temp, heat pump) with storage:
   energy_use_aliases:
     electricity:
       witch:
-        - Final Energy|Carbon Management|Direct Air Capture|Solvent|Electricity|PV
-        - Final Energy|Carbon Management|Direct Air Capture|Solvent|Electricity|CSP
+        - Final Energy|Carbon Management|Direct Air Capture|Solvent|Electricity
   ecoinvent_aliases:
     fltr:
       - carbon dioxide, captured and stored, with a solvent-based direct air capture system, 1MtCO2, with heat pump heat, and grid electricity
@@ -92,7 +91,7 @@ direct air capture (sorbent, low-temp, heat pump) with storage:
       remind: FE|CDR|DAC|+|Electricity
       remind-eu: FE|CDR|DAC|+|Electricity
       tiam-ucl: Secondary Energy|Consumption|Direct Air Capture|Electricity
-      witch: Final Energy|Carbon Management|Direct Air Capture|Sorbent|Electricity|CSP
+      witch: Final Energy|Carbon Management|Direct Air Capture|Sorbent|Electricity
       message: Final Energy|Carbon Management|Direct Air Capture|Sorbent|Electricity
       image: Final Energy|Carbon Management|Direct Air Capture|Solid Sorbent|Electricity
   ecoinvent_aliases:
@@ -146,6 +145,7 @@ ocean liming:
   iam_aliases:
     remind: Emi|CO2|CDR|+|OAE
     remind-eu: Emi|CO2|CDR|+|OAE
+    witch: Carbon Removal|Ocean|Ocean Alkalinity Enhancement
   energy_use_aliases:
     electricity:
       remind:
